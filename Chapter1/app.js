@@ -32,11 +32,25 @@
 
 // alert('2を掛け続けて'+max+'を越えるのに必要だった回数は'+count+'回です');
 
-let i;
-let num = 0;
+// let i;
+// let num = 0;
 
-for(i=1;i<11;i++){
-  num = num + i;
-}
+// for(i=1;i<11;i++){
+//   num = num + i;
+// }
 
-alert('1から10まで足し算した結果は'+num+'です');
+// alert('1から10まで足し算した結果は'+num+'です');
+
+// let alertString;
+// alertString=addString("WebCamp");
+
+// alert(alertString);
+
+// function addString(strA){
+//   let addStr="Hello"+strA;
+//   return addStr;
+// }
+
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
